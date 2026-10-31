@@ -1,23 +1,23 @@
-# Apple Intelligence / Siri / iCloud Private Relay
-# Shadowrocket rules - policy AI
-DOMAIN,guzzoni.apple.com,AI
-DOMAIN,mask-api.fe.apple-dns.net,AI
-DOMAIN,mask-api.icloud.com,AI
-DOMAIN,mask-t.apple-dns.net,AI
-DOMAIN,mask.apple-dns.net,AI
-DOMAIN-SUFFIX,smoot.apple.com,AI
-DOMAIN-SUFFIX,apple-relay.apple.com,AI
-DOMAIN-SUFFIX,apple-relay.cloudflare.com,AI
-DOMAIN-SUFFIX,apple-relay.fastly-edge.com,AI
-DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net,AI
-DOMAIN-SUFFIX,cp4.cloudflare.com,AI
-DOMAIN-SUFFIX,gspel-ssl.ls.apple.com,AI
-DOMAIN-SUFFIX,gateway.icloud.com,AI
-DOMAIN-SUFFIX,ls.apple.com,AI
-DOMAIN-SUFFIX,mask-h2.icloud.com,AI
-DOMAIN-SUFFIX,mask.icloud.com,AI
-DOMAIN-SUFFIX,apps.mzstatic.com,AI
-DOMAIN-SUFFIX,apple-relay.akamaized.net,AI
-DOMAIN-SUFFIX,api-siri-prod.apple.com,AI
-DOMAIN-SUFFIX,genai.apple.com,AI
-DOMAIN-KEYWORD,siri,AI
+# Apple Intelligence Siri iCloud Private Relay
+# Shadowrocket remote rule set; policy assigned by RULE-SET
+DOMAIN,guzzoni.apple.com
+DOMAIN,mask-api.fe.apple-dns.net
+DOMAIN,mask-api.icloud.com
+DOMAIN,mask-t.apple-dns.net
+DOMAIN,mask.apple-dns.net
+DOMAIN-SUFFIX,smoot.apple.com
+DOMAIN-SUFFIX,apple-relay.apple.com
+DOMAIN-SUFFIX,apple-relay.cloudflare.com
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com
+DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net
+DOMAIN-SUFFIX,cp4.cloudflare.com
+DOMAIN-SUFFIX,gspel-ssl.ls.apple.com
+DOMAIN-SUFFIX,gateway.icloud.com
+DOMAIN-SUFFIX,ls.apple.com
+DOMAIN-SUFFIX,mask-h2.icloud.com
+DOMAIN-SUFFIX,mask.icloud.com
+DOMAIN-SUFFIX,apps.mzstatic.com
+DOMAIN-SUFFIX,apple-relay.akamaized.net
+DOMAIN-SUFFIX,api-siri-prod.apple.com
+DOMAIN-SUFFIX,genai.apple.com
+DOMAIN-KEYWORD,siri
