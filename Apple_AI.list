@@ -1,7 +1,7 @@
 # Apple Intelligence / Siri / iCloud Private Relay + System ChatGPT Extension
 # Shadowrocket remote rule-set. Assign policy AI in the main configuration.
 # Apple Intelligence / Siri / iCloud Private Relay
-DOMAIN,guzzoni.apple.com
+DOMAIN-SUFFIX,guzzoni.apple.com
 DOMAIN,mask-api.fe.apple-dns.net
 DOMAIN,mask-api.icloud.com
 DOMAIN,mask-t.apple-dns.net
