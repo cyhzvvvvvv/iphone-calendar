@@ -1,0 +1,37 @@
+# Quantumult X Siri / Apple Intelligence / ChatGPT routing
+# Policy name: AI (must exist in your Quantumult X configuration)
+# Add under [filter_remote] using force-policy=AI, or paste rules under [filter_local].
+# Apple Siri and Intelligence
+host-suffix,guzzoni.apple.com,AI
+host-suffix,smoot.apple.com,AI
+host-suffix,api-siri-prod.apple.com,AI
+host-suffix,genai.apple.com,AI
+host-keyword,siri,AI
+# Apple relay and related services
+host,mask-api.fe.apple-dns.net,AI
+host,mask-api.icloud.com,AI
+host,mask-t.apple-dns.net,AI
+host,mask.apple-dns.net,AI
+host-suffix,apple-relay.apple.com,AI
+host-suffix,apple-relay.cloudflare.com,AI
+host-suffix,apple-relay.fastly-edge.com,AI
+host-suffix,apple-relay.mask.apple-dns.net,AI
+host-suffix,apple-relay.akamaized.net,AI
+host-suffix,cp4.cloudflare.com,AI
+host-suffix,gspel-ssl.ls.apple.com,AI
+host-suffix,gateway.icloud.com,AI
+host-suffix,ls.apple.com,AI
+host-suffix,mask-h2.icloud.com,AI
+host-suffix,mask.icloud.com,AI
+host-suffix,apps.mzstatic.com,AI
+# OpenAI and ChatGPT
+host-suffix,openai.com,AI
+host-suffix,chatgpt.com,AI
+host-suffix,oaistatic.com,AI
+host-suffix,oaiusercontent.com,AI
+# Optional authentication and verification candidates
+host-suffix,challenges.cloudflare.com,AI
+host-suffix,workos.com,AI
+host-suffix,workoscdn.com,AI
+host-suffix,humb.apple.com,AI
+host-suffix,attest.apple.com,AI
